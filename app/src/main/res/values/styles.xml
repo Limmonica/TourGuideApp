@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--&lt;!&ndash; This configures the styles for the title within the Toolbar  &ndash;&gt;-->
+    <!--<style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">-->
+    <!--<item name="android:textSize">21sp</item>-->
+    <!--<item name="android:textStyle">italic</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme.NoActionBar">-->
+    <!--<item name="coordinatorLayoutStyle">@style/Widget.Support.CoordinatorLayout</item>-->
+    <!--</style>-->
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- android:textColorPrimary is the color of the title text in the Toolbar -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+    </style>
+
+    <style name="TourGuideAppTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabTextAppearance">@style/TourGuideTabTextAppearance</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+    </style>
+
+    <style name="TourGuideTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!--<item name="android:actionBarStyle">@style/TourGuideAppBarStyle</item>-->
+    <!--&lt;!&ndash; App bar style &ndash;&gt;-->
+    <!--<style name="TourGuideAppBarStyle" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">-->
+    <!--&lt;!&ndash; Remove the shadow below the bar &ndash;&gt;-->
+    <!--<item name="elevation">0dp</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Style for a tab that displays an element name &ndash;&gt;-->
+    <!--<style name="CategoryTab" parent="Widget.Design.TabLayout">-->
+    <!--<item name="tabIndicatorColor">@android:color/white</item>-->
+    <!--<item name="tabSelectedTextColor">@android:color/white</item>-->
+    <!--<item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Text appearance style for a category tab &ndash;&gt;-->
+    <!--<style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">-->
+    <!--<item name="android:textColor">#A8A19E</item>-->
+    <!--</style>-->
+
+</resources>

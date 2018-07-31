@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TourGuideApp</string>
+
+    <!-- Restaurants -->
+    <string name="element_restaurants">Restaurants</string>
+    <string name="tears_name">Tears and Saints</string>
+    <string name="tears_desc">Tears and Saints is a specific Romanian restaurant located in the Old Town</string>
+
+    <!-- Places -->
+    <string name="element_places">Places</string>
+    <string name="old_town_name">Old Town</string>
+    <string name="old_town_desc">Old Town is one of the most visited touristic places in Bucharest and Romania</string>
+
+    <!-- Events -->
+    <string name="element_events">Events</string>
+    <string name="picnic_name">Picnic Phonic Festival</string>
+    <string name="picnic_desc">Picnic Phonic Festival is a 3 days festival of electronic music</string>
+
+    <!-- Parks -->
+    <string name="element_parks">Parks</string>
+    <string name="ior_name">IOR Park</string>
+    <string name="ior_desc">IOR Park is located in the Titan area of the city</string>
+
+    <string name="appbar_scrolling_view_behavior" translatable="false" tools:ignore="PrivateResource">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+</resources>
