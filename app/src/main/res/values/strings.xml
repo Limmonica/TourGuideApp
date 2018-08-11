@@ -1,25 +1,175 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">TourGuideApp</string>
+    <string name="app_name">Bucharest</string>
+    <string name="city_name">Bucharest</string>
 
-    <!-- Restaurants -->
+    <!-- Tabs Content -->
     <string name="element_restaurants">Restaurants</string>
-    <string name="tears_name">Tears and Saints</string>
-    <string name="tears_desc">Tears and Saints is a specific Romanian restaurant located in the Old Town</string>
-
-    <!-- Places -->
     <string name="element_places">Places</string>
-    <string name="old_town_name">Old Town</string>
-    <string name="old_town_desc">Old Town is one of the most visited touristic places in Bucharest and Romania</string>
-
-    <!-- Events -->
     <string name="element_events">Events</string>
-    <string name="picnic_name">Picnic Phonic Festival</string>
-    <string name="picnic_desc">Picnic Phonic Festival is a 3 days festival of electronic music</string>
-
-    <!-- Parks -->
     <string name="element_parks">Parks</string>
+
+    <!-- RESTAURANTS -->
+    <!-- LACRIMI SI SFINTI -->
+    <string name="tears_name">Lacrimi si Sfinti</string>
+    <string name="tears_desc">An unusual romanian restaurant with a modern/contemporary kitchen.
+        Recipes as old as 100 years are reinterpreted and rearranged, lost flavours, invented
+        flavours, all in one place.</string>
+    <string name="tears_address">https://goo.gl/maps/wkzJMqqkrpB2</string>
+    <string name="tears_phone">+40725558286</string>
+    <string name="tears_web">http://www.lacrimisisfinti.com/en/</string>
+    <string name="tears_fb">https://www.fb.com/LacrimisiSfinti/</string>
+
+    <!-- VICTORIEI 18 -->
+    <string name="victoriei_name">Victoriei 18</string>
+    <string name="victoriei_desc">Dedicated to the street food inspired from all over the world!
+        The menu gathers the finest street foods in the world and the incredible variety of flavors
+        that tell the whole story of a country.</string>
+    <string name="victoriei_address">https://goo.gl/maps/M4JvSwfLuLk</string>
+    <string name="victoriei_phone">+40749416962</string>
+    <string name="victoriei_web">http://victoriei18.ro/</string>
+    <string name="victoriei_fb">https://www.facebook.com/Victoriei18</string>
+
+    <!-- SIMBIO -->
+    <string name="simbio_name">Simbio</string>
+    <string name="simbio_desc">Here the day starts with a good coffee, breakfast has
+        no fixed schedule, lunch is tasty and evenings are relaxed. You can see how your favorite
+        dishes are being cooked in the open kitchen, the garden is a refuge away from the city\'s
+        hustle and you can easily lose the notion of time in the bar.</string>
+    <string name="simbio_address">https://goo.gl/maps/y457gSXW2fn</string>
+    <string name="simbio_phone">+40756746246</string>
+    <string name="simbio_web">http://simbiokb.ro</string>
+    <string name="simbio_fb">https://www.facebook.com/SimbioKitchenBar</string>
+
+    <!-- BOCCA LUPO -->
+    <string name="bocca_name">Bocca Lupo</string>
+    <string name="bocca_desc">An authentic Italian cuisine, with a design that brings you closer to
+        the beauty of Italy, a varied menu, designed for all tastes, with fresh ingredients,
+        natural and carefully selected for a plus of flavor. </string>
+    <string name="bocca_address">https://goo.gl/maps/q66dQKhGDm22</string>
+    <string name="bocca_phone">+40314050050</string>
+    <string name="bocca_web">https://boccalupo.ro/</string>
+    <string name="bocca_fb">https://www.facebook.com/RestaurantBoccaLupo</string>
+
+    <!-- SHIFT PUB -->
+    <string name="altshift_name">Alt Shift</string>
+    <string name="altshift_desc">You could eat breakfast, lunch and dinner here and still want to come
+        back for more after you\'ve been clubbing downstairs at Control and indeed you can: it
+        stays open late at the weekend to serve pizza to the post-club crowd</string>
+    <string name="altshift_address">https://goo.gl/maps/L8gCk2qXbrC2</string>
+    <string name="altshift_phone">+40727316245</string>
+    <string name="altshift_web">http://www.altshift.ro/</string>
+    <string name="altshift_fb">https://www.facebook.com/altshiftpub/</string>
+
+    <!-- BIUTIFUL -->
+    <string name="biutiful_name">Biutiful</string>
+    <string name="biutiful_desc">On the banks of Herestrau Lake, this floating terrace is a
+        brighter and lighter version of the already classic Bucharest venue. Opened only on summer
+        days and nights, Biutiful “by the lake” brings together the best of two worlds, as the
+        seaside feeling of the lake shore meets the hot, crowded city life.</string>
+    <string name="biutiful_address">https://goo.gl/maps/GbZzod5am212</string>
+    <string name="biutiful_phone">+40733500222</string>
+    <string name="biutiful_web">http://biutiful.ro</string>
+    <string name="biutiful_fb">https://www.facebook.com/BiutifulByFratelli/</string>
+
+    <!-- CHEFS EXPERIENCE -->
+    <string name="chefs_name">Chefs Experience</string>
+    <string name="chefs_desc">Unique experiences? Yes please! Chefs Experience is a restaurant that
+        offers more than savory dishes, one that promises that time spent is a real experience.
+        Chefs offers you a generous a-la-carte menu with tasty international cuisine, designed to
+        pamper even the most exquisite tastes.</string>
+    <string name="chefs_address">https://goo.gl/maps/XHnyqs9en292</string>
+    <string name="chefs_phone">+40723856916</string>
+    <string name="chefs_web">https://chefsexperience.ro</string>
+    <string name="chefs_fb">https://www.facebook.com/pg/Chefs.Experience</string>
+
+    <!-- VERANDA CASA FRUMOASA -->
+    <string name="veranda_name">Veranda Casa Frumoasa</string>
+    <string name="verandas_desc">In a classically elegant structure of metal and glass, the
+        restaurant revives the greenhouses of the late 18th century, reinterpreted with a modern
+        twist. Created by renowned chef Avi Steinitz, the international menu with French and
+        Mediterranean influences is contoured with epic style and taste.</string>
+    <string name="veranda_address">https://goo.gl/maps/DZDncNW86YH2</string>
+    <string name="veranda_phone">+40733735932</string>
+    <string name="veranda_web">http://verandacasafrumoasa.ro</string>
+    <string name="veranda_fb">https://www.facebook.com/VerandaCasaFrumoasa/</string>
+
+    <!-- PLACES -->
+    <!-- OLD TOWN -->
+    <string name="old_town_name">Old Town</string>
+    <string name="old_town_desc">A mix of history, local culture and life style, a trendy
+        entertainment district and favorite hangout for the locals</string>
+    <string name="old_town_address">https://goo.gl/maps/vkAS8grebZG2</string>
+
+    <!-- THE PEOPLE'S HOUSE-->
+    <string name="parliament_name">The People\'s House</string>
+    <string name="parliament_desc">Also known as The People\'s House is regarded as former
+        dictator\'s, Nicolae Ceaușescu, most cherished jewel. One of the most significant
+        sightseeing objectives in Bucharest.</string>
+    <string name="parliament_address">https://goo.gl/maps/9aFQuzEjDbD2</string>
+
+    <!-- THERME -->
+    <string name="therme_name">Therme</string>
+    <string name="therme_desc">A wellness concept for modern lifestyle, dedicated to your
+        well-being</string>
+    <string name="therme_address">https://goo.gl/maps/RkWuqWFcgZQ2</string>
+
+    <!-- EVENTS -->
+    <!-- GEORGE ENESCU FESTIVAL-->
+    <string name="enescu_name">George Enescu Festival</string>
+    <string name="enescu_desc">The biggest classical music festival and classical international
+        competition held in Romania and one of the biggest in Eastern Europe</string>
+    <string name="enescu_address">https://goo.gl/maps/GYF94ZJ9vzy</string>
+    <string name="enescu_web">https://www.festivalenescu.ro/en/</string>
+    <string name="enescu_fb">https://www.facebook.com/enescu.festival/</string>
+
+    <!-- SUMMER WELL FESTIVAL-->
+    <string name="summer_name">Summer Well</string>
+    <string name="summer_desc">Summer Well is an indie-centric music festival in Buftea, a town
+        just outside the Romanian capital Bucharest.</string>
+    <string name="summer_address">https://goo.gl/maps/7BjrzoHH7uy</string>
+    <string name="summer_web">https://summerwell.ro/</string>
+    <string name="summer_fb">https://www.facebook.com/SummerWellFestival/</string>
+
+    <!-- STREET DELIVERY-->
+    <string name="street_name">Street Delivery</string>
+    <string name="street_desc">A pedestrian event which stands for a city that provides joy to its
+        inhabitants, one in which people partake of the streets at least as much as drivers
+        do.</string>
+    <string name="street_address">https://goo.gl/maps/KqZnzVRNuux</string>
+    <string name="street_web">http://street.delivery/</string>
+    <string name="street_fb">https://www.facebook.com/StreetDelivery/</string>
+
+    <!-- PARKS -->
+    <!-- HERASTRAU-->
+    <string name="herastrau_name">Herastrau Park</string>
+    <string name="herastrau_desc">The largest park in Bucharest ideal for practicing all sorts of
+        outdoor sports, for mere walks of for relaxation. The lake can be used for boat trips or
+        water sport. The park is also a culturally sparkling opportunity, full of events inviting
+        visitors to sample some of the specific character of the capital of Romania.</string>
+    <string name="herastrau_address">https://goo.gl/maps/q9m7XHxYAvC2</string>
+    <string name="herastrau_web">http://www.tourism-bucharest.com/bucharest-attractions/parks-and-gardens-in-bucharest/herastrau-park.html</string>
+
+    <!-- IOR-->
     <string name="ior_name">IOR Park</string>
-    <string name="ior_desc">IOR Park is located in the Titan area of the city</string>
+    <string name="ior_desc">The Alexandru Ioan Cuza Park, or simply IOR Park is one of the largest
+        parks in Bucharest, since it stretches on a surface of some 85 hectares. A considerable part
+        of the park is filled by the Titan Lake together with its five islands.</string>
+    <string name="ior_address">https://goo.gl/maps/pK1FwBqXaEB2</string>
+    <string name="ior_web">http://www.tourism-bucharest.com/bucharest-attractions/parks-and-gardens-in-bucharest/alexandru-ioan-cuza-park.html</string>
+
+    <!-- CISMIGIU-->
+    <string name="cismigiu_name">Cismigiu Park</string>
+    <string name="cismigiu_desc">The park stretches on a surface of 17 hectares, and, while being
+        unanimously deemed the most beautifully landscaped garden in Bucharest, it also enjoys a
+        central location in the city.</string>
+    <string name="cismigiu_address">https://goo.gl/maps/azXLt7KYLNu</string>
+    <string name="cismigiu_web">http://www.tourism-bucharest.com/bucharest-attractions/parks-and-gardens-in-bucharest/cismigiu-park.html</string>
 
     <string name="appbar_scrolling_view_behavior" translatable="false" tools:ignore="PrivateResource">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="element_pic">picture</string>
+    <string name="element_logo">logo</string>
+    <string name="call_now">Phone</string>
+    <string name="visit_website">Website</string>
+    <string name="locate_map">Directions</string>
+    <string name="visit_facebook">Facebook</string>
 </resources>

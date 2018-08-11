@@ -1,40 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".RestaurantsFragment">
+    android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/element_image_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:src="@drawable/tears_angels" />
+    <android.support.v7.widget.CardView
+        style="@style/CardStyle"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="@dimen/card_elevation"
+        app:cardMaxElevation="@dimen/card_max_elevation">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/element_name_text_view"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:text="Restaurant Name Test" />
+                android:layout_height="0dp"
+                android:layout_weight="1">
 
-            <TextView
-                android:id="@+id/element_desc_text_view"
+                <ImageView
+                    android:id="@+id/element_image_view"
+                    style="@style/ImgStyle"
+                    android:contentDescription="@string/element_pic"
+                    android:src="@drawable/biutiful_pic" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/element_logo_view"
+                style="@style/LogoStyle"
+                android:contentDescription="@string/element_logo"
+                android:src="@drawable/biutiful_logo" />
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:text="Restaurant Description Test" />
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/element_name_text_view"
+                    style="@style/TitleStyle"
+                    tools:text="Biutiful" />
+
+                <TextView
+                    android:id="@+id/element_desc_text_view"
+                    style="@style/DescStyle"
+                    tools:text="Element Description" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/call_now_action"
+                        style="@style/IconsStyle"
+                        android:autoLink="phone"
+                        android:drawableTop="@drawable/ic_phone_24dp"
+                        android:text="@string/call_now" />
+
+                    <TextView
+                        android:id="@+id/visit_web_action"
+                        style="@style/IconsStyle"
+                        android:autoLink="web"
+                        android:drawableTop="@drawable/ic_web_24dp"
+                        android:text="@string/visit_website" />
+
+                    <TextView
+                        android:id="@+id/locate_action"
+                        style="@style/IconsStyle"
+                        android:autoLink="map"
+                        android:drawableTop="@drawable/ic_map_24dp"
+                        android:text="@string/locate_map" />
+
+                    <TextView
+                        android:id="@+id/fb_action"
+                        style="@style/IconsStyle"
+                        android:autoLink="web"
+                        android:drawableTop="@drawable/ic_facebook"
+                        android:text="@string/visit_facebook" />
+
+                </LinearLayout>
+
+            </LinearLayout>
 
         </LinearLayout>
 
-    </LinearLayout>
+    </android.support.v7.widget.CardView>
 
 </FrameLayout>
