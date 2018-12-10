@@ -5,7 +5,7 @@ package com.example.limmonica.tourguideapp;
  * It contains resource IDs for the element name, element description, element image file
  * and optional address for that element.
  */
-public class Element {
+class Element {
     /**
      * Constant value that represents no phone number was provided for this element
      */
@@ -122,84 +122,84 @@ public class Element {
     /**
      * Get the string resource ID for the element name
      */
-    public int getElementNameId() {
+    int getElementNameId() {
         return mElementNameId;
     }
 
     /**
      * Get the string resource ID for the element description
      */
-    public int getElementDescId() {
+    int getElementDescId() {
         return mElementDescId;
     }
 
     /**
      * Get the image resource ID of the element
      */
-    public int getElementLogoResId() {
+    int getElementLogoResId() {
         return mElementLogoResId;
     }
 
     /**
      * Returns whether of not there is a logo image for the element
      */
-    public boolean hasLogo() {
+    boolean hasLogo() {
         return mElementLogoResId != NO_VALUE_PROVIDED;
     }
 
     /**
      * Get the drawable resource ID of the picture of the element
      */
-    public int getElementPicResId() {
+    int getElementPicResId() {
         return mElementPicResId;
     }
 
     /**
      * Get the string resource ID for the element phone number
      */
-    public int getElementPhoneId() {
+    int getElementPhoneId() {
         return mElementPhoneId;
     }
 
     /**
      * Returns whether or not there is a phone number for the element
      */
-    public boolean hasPhone() {
+    boolean hasPhone() {
         return mElementPhoneId != NO_VALUE_PROVIDED;
     }
 
     /**
      * Get the string resource ID for the element web address
      */
-    public int getElementWebId() {
+    int getElementWebId() {
         return mElementWebId;
     }
 
     /**
      * Returns whether or not there is a web address for the element
      */
-    public boolean hasWeb() {
+    boolean hasWeb() {
         return mElementWebId != NO_VALUE_PROVIDED;
     }
 
     /**
      * Get the string resource ID for the element directions
      */
-    public int getElementMapId() {
+    int getElementMapId() {
         return mElementMapId;
     }
 
     /**
      * Get the string resource ID for the element Facebook page address
      */
-    public int getElementFbId() {
+    int getElementFbId() {
         return mElementFbId;
     }
 
     /**
      * Returns whether of not there is a Facebook page address for the element
      */
-    public boolean hasFb() {
+    boolean hasFb() {
         return mElementFbId != NO_VALUE_PROVIDED;
     }
 }

@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * {@link DATA} is a Singleton class with getInstance() methods as source of data for the
  * Tour Guide app
  */
-public class DATA {
+class DATA {
 
     /**
      * Static variable of the single instance of type Singleton
@@ -49,26 +49,26 @@ public class DATA {
         parks.add(new Element(R.string.cismigiu_name, R.string.cismigiu_desc, R.drawable.cismigiu_pic, R.string.cismigiu_web, R.string.cismigiu_address));
     }
 
-    public static DATA getINSTANCE() {
+    static DATA getINSTANCE() {
         if (INSTANCE == null) {
             INSTANCE = new DATA();
         }
         return (INSTANCE);
     }
 
-    public ArrayList<Element> getRestaurants() {
+    ArrayList<Element> getRestaurants() {
         return restaurants;
     }
 
-    public ArrayList<Element> getPlaces() {
+    ArrayList<Element> getPlaces() {
         return places;
     }
 
-    public ArrayList<Element> getEvents() {
+    ArrayList<Element> getEvents() {
         return events;
     }
 
-    public ArrayList<Element> getParks() {
+    ArrayList<Element> getParks() {
         return parks;
     }
 }
