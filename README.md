@@ -1,4 +1,4 @@
-# Udacity Project no. 6: Multi-Screen Apps
+# Multi-Screen Apps
 
 # Tour Guide App
 
